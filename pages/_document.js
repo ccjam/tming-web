@@ -41,7 +41,6 @@ class MyDocument extends Document {
         <meta charset="utf-8"/>
 	<meta name="viewport" content="width=640, user-scalable=no" />
 	<meta content="telephone=no" name="format-detection"/>
-	<title>라이브러리 기본</title>
 	
 	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
 	<link rel="stylesheet" type="text/css" href="css/main.css"/>

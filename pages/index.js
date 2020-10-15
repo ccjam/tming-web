@@ -31,6 +31,9 @@ export default function Home(req, res) {
   }, [])
   return (
     <div id="warp" >
+      <Head>
+        <title>Tming, Make the broadcast easy and the viewers have fun!</title>
+      </Head>
 		<div className="top_fixed">
 			<div className="container">
 				<div className="top_logo animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">

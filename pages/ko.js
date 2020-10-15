@@ -20,6 +20,9 @@ const download = async () => {
 }
   return (
     <div id="warp" >
+		<Head>
+        <title>Tming, 방송은 편하게, 시청자는 즐겁게!</title>
+      </Head>
 		<div className="top_fixed">
 			<div className="container">
 				<div className="top_logo animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
