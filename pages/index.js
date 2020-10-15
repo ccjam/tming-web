@@ -26,7 +26,7 @@ export default function Home(req, res) {
   const router = useRouter();
   useEffect(() => {
     if(navigator.language.toLocaleLowerCase() === "ko-kr" || navigator.language.toLocaleLowerCase() === "ko" || navigator.language.toLocaleLowerCase() === "ko-KR") {
-      //router.replace( '/ko')
+      router.replace( '/ko')
     }
   }, [])
   return (
