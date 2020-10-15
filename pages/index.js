@@ -52,7 +52,7 @@ export default function Home(req, res) {
 				</div>
 				<ul className="top_right pc animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
 					<li style={{opacity: 0}}>
-						<ul className="lang">
+						<ul style={{opacity: 0}} className="lang">
 							<li className=""><a href="/ko">KR</a></li>
 							<li className="active"><a href="#">EN</a></li>
 						</ul>
@@ -65,7 +65,7 @@ export default function Home(req, res) {
 				</ul>
 				<ul className="top_right mobile animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
 					<li>
-						<ul className="lang">
+						<ul style={{opacity: 0}} className="lang">
 							<li className=""><a href="index.html">KR</a></li>
 							<li className="active"><a href="index_en.html">EN</a></li>
 						</ul>

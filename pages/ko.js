@@ -53,7 +53,7 @@ const download = async () => {
 				</ul>
 				<ul className="top_right mobile animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
 					<li>
-						<ul className="lang">
+						<ul style={{opacity: 0}} className="lang">
 							<li className="active"><a href="index.html">KR</a></li>
 							<li className=""><a href="index_en.html">EN</a></li>
 						</ul>
