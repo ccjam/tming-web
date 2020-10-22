@@ -14,6 +14,7 @@ const download = async () => {
   link.click();
   document.body.removeChild(link);
   window.gtag('event', 'download')
+  window.gtag('event', 'conversion', {'send_to': 'AW-529575461/ppzuCIbR6uMBEKXcwvwB'});
   
 	
 	

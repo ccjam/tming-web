@@ -59,8 +59,10 @@ class MyDocument extends Document {
             <NextScript>
                 
             </NextScript>
+
+
             <script src="js/jquery.min.js"></script>
-            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177841511-2"></script>
+            <script async src="https://www.googletagmanager.com/gtag/js?id=AW-529575461"></script>
                 <script src="js/scrolla.jquery.min.js"></script>
                 <script src="plugin/scrolla/scrolla.jquery.min.js"></script>
                 <script src="plugin/swiper/dist/js/swiper.ani.js"></script>
