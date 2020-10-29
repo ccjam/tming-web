@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
+
 export default function Home(req, res) {
 const download = async () => {
 	console.log('dodwnload')
@@ -232,6 +233,11 @@ const download = async () => {
 		<div className="footer">
 			<div className="container">
 				<p>© SW Maestro 11th CCJAM</p>
+				<a href="mailto:swmaestroccjam@gmail.com">
+					<div className="top_btn animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
+						Contact us
+					</div>
+				</a>
 			</div>
 		</div>
 
