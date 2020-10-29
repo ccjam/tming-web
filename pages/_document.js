@@ -50,8 +50,8 @@ class MyDocument extends Document {
 	
 	<link rel="stylesheet" href="css/animate.min.css"/>
 	
-	<link rel="stylesheet" href="css/jquery.modal.css" />	
-	
+	<link rel="stylesheet" href="css/jquery.modal.css" />
+
 	<link rel="stylesheet" href="plugin/magnific-popup/magnific-popup.css"/>
         </Head>
         <body>
@@ -64,6 +64,7 @@ class MyDocument extends Document {
             <script src="js/jquery.min.js"></script>
             <script async src="https://www.googletagmanager.com/gtag/js?id=AW-529575461"></script>
                 <script src="js/scrolla.jquery.min.js"></script>
+				<script src="https://use.fontawesome.com/35be55a773.js"></script>
                 <script src="plugin/scrolla/scrolla.jquery.min.js"></script>
                 <script src="plugin/swiper/dist/js/swiper.ani.js"></script>
                 <script src="plugin/swiper/dist/js/swiper.min.js"></script>

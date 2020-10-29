@@ -245,6 +245,11 @@ All participation results data and so on are automatically saved on the PC.</div
 		<div className="footer">
 			<div className="container">
 				<p>© SW Maestro 11th CCJAM</p>
+				<a href="mailto:swmaestroccjam@gmail.com">
+					<div className="top_btn animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
+						Contact us
+					</div>
+				</a>
 			</div>
 		</div>
 
