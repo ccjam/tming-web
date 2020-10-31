@@ -80,7 +80,7 @@ export default function Home(req, res) {
 		<section id="section-1" >
 			<div className="container">
 				<div className="page1_logo animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
-					<img src="img/page1_logo.png"/>
+				<iframe width="500" height="300" src="https://www.youtube.com/embed/uTdtjLnsmZk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 				<div className="page1_txt1 animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
 					Make the broadcast easy and the viewers have fun!
@@ -243,10 +243,11 @@ All participation results data and so on are automatically saved on the PC.</div
 		</section>
 		
 		<div className="footer">
-			<div className="container">
+			<div className="top_center">
 				<p>© SW Maestro 11th CCJAM</p>
+				<br></br>
 				<a href="mailto:swmaestroccjam@gmail.com">
-					<div className="top_btn animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
+					<div className="top_btn cne" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
 						Contact us
 					</div>
 				</a>
