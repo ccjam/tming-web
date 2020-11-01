@@ -116,7 +116,7 @@ export default function Home(req, res) {
 			<div className="container">
 				<ul className="info_ul padding_1">
 					<li className="ul_img animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
-						<img src="img/page2_img1.png"/>
+					<iframe width="500" height="300" src="https://www.youtube.com/embed/qbTc6QXkB5g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</li>
 					<li className="ul_info">
 						<div className="img_info_r">
@@ -239,6 +239,9 @@ All participation results data and so on are automatically saved on the PC.</div
 
 			</div>
 			<div id="section-4" className="animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
+				<div className="title_info1 animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/UqcMo-S2ghU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
 			</div>
 		</section>
 		
