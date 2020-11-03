@@ -102,11 +102,9 @@ export default function Home(req, res) {
 				<div className="page1_txt3 mobile animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
 					Try setting up various audience participation content,<br/> such as audience participation questionnaires and chat analysis.<br/>With Tming, you can make a richer broadcast.
 				</div>
-				<a href="mailto:swmaestroccjam@gmail.com">
-				<div className="page1_btn animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
+				<div href="mailto:swmaestroccjam@gmail.com" className="page1_btn animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
 					Windows Donwload
 				</div>
-				</a>
 				<div className="page1_img1 pc  animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
 					<img src="img/page1_img1.png"/>
 				</div>
