@@ -14,9 +14,10 @@ export default function Home(req, res) {
     var link = document.createElement("a");
     link.download = name;
     link.href = json.fileUrl;
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    //document.body.appendChild(link);
+    //link.click();
+	//document.body.removeChild(link);
+	alert("In ready...")
     window.gtag('event', 'download')
     window.gtag('event', 'conversion', {'send_to': 'AW-529575461/ppzuCIbR6uMBEKXcwvwB'});
     
@@ -49,9 +50,7 @@ export default function Home(req, res) {
 					</div>
 				</div>
 				<div className="top_center mobile">
-					
-					
-					<a href="mailto:swmaestroccjam@gmail.com"><div className="top_btn animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
+					<a href="#" onClick={download}><div className="top_btn animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
 						Windows Donwload
 					</div></a>
 				</div>
@@ -63,7 +62,7 @@ export default function Home(req, res) {
 						</ul>
 					</li>
 					<li>
-					<a href="mailto:swmaestroccjam@gmail.com"> <div className="top_btn animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
+					<a href="#" onClick={download} > <div className="top_btn animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
 						Windows Donwload
 					</div></a>
 					</li>
@@ -102,7 +101,7 @@ export default function Home(req, res) {
 				<div className="page1_txt3 mobile animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
 					Try setting up various audience participation content,<br/> such as audience participation questionnaires and chat analysis.<br/>With Tming, you can make a richer broadcast.
 				</div>
-				<div href="mailto:swmaestroccjam@gmail.com" className="page1_btn animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
+				<div onClick={download} className="page1_btn animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
 					Windows Donwload
 				</div>
 				<div className="page1_img1 pc  animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
