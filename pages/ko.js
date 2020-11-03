@@ -11,9 +11,10 @@ const download = async () => {
 	var link = document.createElement("a");
   link.download = name;
   link.href = json.fileUrl;
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
+  //document.body.appendChild(link);
+  //link.click();
+  //document.body.removeChild(link);
+  alert("준비중입니다!");
   window.gtag('event', 'download')
   
 	
@@ -38,7 +39,7 @@ const download = async () => {
 					</div>
 				</div>
 				<div className="top_center mobile">
-					<a href="mailto:swmaestroccjam@gmail.com"><div className="top_btn animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
+					<a href="#" onClick={download}><div className="top_btn animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
 						Windows용 다운로드
 					</div></a>
 				</div>
@@ -50,7 +51,7 @@ const download = async () => {
 						</ul>
 					</li>
 					<li>
-					<a href="mailto:swmaestroccjam@gmail.com">  <div className="top_btn animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
+					<a href="#" onClick={download}>  <div className="top_btn animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
 						Windows용 다운로드
 					</div></a>
 					</li>
@@ -89,7 +90,7 @@ const download = async () => {
 					Tming과 함께라면 더 풍성한 방송을 만들 수 있습니다.
 
 				</div>
-				<div href="mailto:swmaestroccjam@gmail.com" className="page1_btn animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
+				<div onClick={download} className="page1_btn animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
 					Windows용 다운로드
 				</div>
 				<div className="page1_img1 pc  animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
