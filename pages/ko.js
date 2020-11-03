@@ -38,7 +38,7 @@ const download = async () => {
 					</div>
 				</div>
 				<div className="top_center mobile">
-					<a href="#" onClick={download}><div className="top_btn animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
+					<a href="mailto:swmaestroccjam@gmail.com"><div className="top_btn animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
 						Windows용 다운로드
 					</div></a>
 				</div>
@@ -50,7 +50,7 @@ const download = async () => {
 						</ul>
 					</li>
 					<li>
-					<a href="#" onClick={download}>  <div className="top_btn animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
+					<a href="mailto:swmaestroccjam@gmail.com">  <div className="top_btn animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
 						Windows용 다운로드
 					</div></a>
 					</li>
@@ -89,9 +89,11 @@ const download = async () => {
 					Tming과 함께라면 더 풍성한 방송을 만들 수 있습니다.
 
 				</div>
-				<div onClick={download} className="page1_btn animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
+				<a href="mailto:swmaestroccjam@gmail.com">
+				<div className="page1_btn animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
 					Windows용 다운로드
 				</div>
+				</a>
 				<div className="page1_img1 pc  animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
 					<img src="img/page1_img1.png"/>
 				</div>
