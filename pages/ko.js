@@ -11,10 +11,10 @@ const download = async () => {
 	var link = document.createElement("a");
   link.download = name;
   link.href = json.fileUrl;
-  //document.body.appendChild(link);
-  //link.click();
-  //document.body.removeChild(link);
-  alert("준비중입니다!");
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+  //alert("준비중입니다!");
   window.gtag('event', 'download')
   window.gtag('event', 'conversion', {'send_to': 'AW-529575461/ppzuCIbR6uMBEKXcwvwB'});
   
@@ -107,7 +107,7 @@ const download = async () => {
 			<div className="container">
 				<ul className="info_ul padding_1">
 					<li className="ul_img animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
-					<iframe width="500" height="300" src="https://www.youtube.com/embed/qbTc6QXkB5g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/jqjAi88ZAgk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</li>
 					<li className="ul_info">
 						<div className="img_info_r">
@@ -230,7 +230,7 @@ const download = async () => {
 			</div>
 			<div id="section-4" className="animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
 				<div className="title_info1 animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/UqcMo-S2ghU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/L2Bn8Os93q4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 			</div>
 		</section>
