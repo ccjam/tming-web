@@ -81,7 +81,7 @@ export default function Home(req, res) {
 		<section id="section-1" >
 			<div className="container">
 				<div className="page1_logo animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
-				<iframe width="500" height="300" src="https://www.youtube.com/embed/uTdtjLnsmZk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<img src="img/page1_logo.png"/>
 				</div>
 				<div className="page1_txt1 animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
 					Make the broadcast easy and the viewers have fun!
